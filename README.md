@@ -25,7 +25,17 @@ Target:
 | --- | --- | --- | --- |
 | age | numberic | customer age | n/a |
 | job | categorial | customer occupation | contains uknowns |
+| marital | categorical | marital status | note divorced mean divorced or widowsed |
+| education | categorical | costomer highest education  level | contains uknowns |
 | balance | numeric | yearly account balance | inspect distribution |
-| contanct | categorical | communcation type | ? |
-| duraction | numeric | call duration | leakage? |
+| housing | binary | has housing loan |   |
+| loan | binary | has personal loan |   |
+| contact | categorical | contact communication type | contains unknowns |
+| day | numeric | last contact day of the month |   |
+| month | categorical | last contact month of year |  |
+| duration | numeric | las contact duration in seconds |  |
+| campaign | numeric | number of contacts performed during campaign for this client | includes last contact |
+| pdays | numeric | numer of days that passed by after the client was last contacted from a previous campaign | -1 means client was not previously contacted |
+| previous | numeric | numer of contacts performed before this campaign and for this client |  |
+| poutcome | categorical | outcome of previous marketing campaign | contains uknowns |
 | y | binary | subscribed to depostic | target|
